@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(https://sun9-10.userapi.com/impg/TO9rBSwG-PqSQAmexWZc5oS8xxI0DgjfsJxI3Q/uc7w9lbzRM8.jpg?size=1020x572&quality=95&sign=f3e002b9eb5f39de01e079ff662f297a&type=album);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+#btn1,
+#btn2 {
+    width: 30%;
+    padding: 2px;
+    border: none;
+    border-radius: 6px;
+    background: #4a6cf7;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#checkAll {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+    background: #64fa00;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.result {
+    margin: 3px 0 0;
+    font-size: 11px;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+
